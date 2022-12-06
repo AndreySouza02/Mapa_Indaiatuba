@@ -19,10 +19,10 @@ L.marker([-23.090955, -47.217865]).addTo(map)
 L.marker([-23.091034, -47.219742]).addTo(map)
     .bindPopup('Casarão do Pau Preto: <a href="./casarao.html" class="speciallink">Clique aqui</a>');      
 
-    function onMapClick(e) {
-         alert("You clicked the map at " + e.latlng);
-      }
+    // function onMapClick(e) {
+    //      alert("You clicked the map at " + e.latlng);
+    //   }
     
-      map.on('click', onMapClick);
+    //   map.on('click', onMapClick);
 
-      //-23.091034, -47.219742
+    //   //-23.091034, -47.219742
