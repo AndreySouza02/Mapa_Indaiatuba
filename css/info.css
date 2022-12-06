@@ -1,0 +1,36 @@
+body{
+    background: rgb(13,187,237);
+    background: linear-gradient(36deg,
+     rgba(13,187,237,1) 0%, 
+     rgba(40,128,227,1) 29%, 
+     rgba(0,27,228,1) 63%, 
+     rgba(8,0,255,1) 100%);
+
+    margin: 0; 
+    padding: 0;
+    background-size: 100%;
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+
+h1{
+    text-align: center;
+}
+
+#fran{
+    width: 13rem;
+    height: 20rem;
+    margin-left: 42%;
+}
+
+#desc{
+    margin: 5%;
+    font-size: 3vh;
+}
+
+@media(max-width:542px) {
+    #fran{
+        margin-left: 28%;
+    }
+}

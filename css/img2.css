@@ -1,0 +1,13 @@
+#fran2{
+    width: 27rem;
+    height: 21rem;
+    margin-left: 34%;
+}
+
+@media(max-width:542px) {
+    #fran{
+        margin-left: 0;
+        width: 13rem;
+        height: 7rem;
+    }
+}

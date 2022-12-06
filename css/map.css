@@ -1,0 +1,82 @@
+#mapInda {
+    height: 74vh;
+    width: 80%;  
+    margin-bottom: 3%; 
+}
+
+/* Alinhar no centro o navbar */
+nav{
+    text-align: center;
+}
+
+body{
+    background: rgb(13,187,237);
+    background: linear-gradient(36deg,
+     rgba(13,187,237,1) 0%, 
+     rgba(40,128,227,1) 29%, 
+     rgba(0,27,228,1) 63%, 
+     rgba(8,0,255,1) 100%);
+
+    /* Margem */
+    margin: 0; 
+    /* Margem interna */
+    padding: 0;
+    background-size: 100%;
+    position: relative;
+    height: 100vh;
+    width: 100%;
+}
+
+.menu{
+    align-items: center;
+    margin-top: 10px;
+    display: inline-block;
+    /* Cor de fundo */
+    background-color: black;
+    width: 160px;
+    height: 45px;  
+    /* Margem interna de cima */
+    padding-top: 20px;
+    color: #fff;
+    /* Letra de forma */
+    text-transform: uppercase;
+    font-family: 'Courier New', Courier, monospace;
+    /* Largura da letra */
+    font-weight: lighter;
+    /* Tamanho da letra */
+    font-size: 21px;
+    /* Transicão de entrada */
+    transition: 1s;     
+}
+/* Ação que sera feita quando passar o mouse por cima */
+li:hover{
+    transition: 1s;
+    color: #000;
+    background: #0dbbed;
+}
+
+ul li a{
+    /* Tirar linha de baixo da letra */
+    text-decoration: none;
+    color: #fff;
+} 
+
+/* Posicionar o footer fixo em baixo */
+footer{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;   
+    font-family: 'Times New Roman', Times, serif;
+    height: 50px;
+    margin-top: 10fr;
+}
+
+@media(max-width:542px) {
+    #mapInda {
+        height: 74vh;
+    }
+}
